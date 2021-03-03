@@ -24,9 +24,9 @@ body, html{
 
 nav {
     width: 100%;
-    background-color: #c297b4;
-    border-bottom: 1px solid #f4f4f4;
+    box-shadow: 0 0 5px 0 black;
     padding: 20px;
+    background-color: #c297b4;
     position: sticky;
     top: 0px;
 }
@@ -53,6 +53,13 @@ nav a:hover{
 }
 
 /* content */
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
 
 #resume{
     width: 500px;
